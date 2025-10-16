@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+// The path is now updated to look inside the 'components' folder
+import ValidationForm from './components/ValidationForm'; 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ValidationForm />
     </div>
   );
 }
